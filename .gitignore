@@ -1,1 +1,13 @@
-/data
+# Python environments
+.venv/
+.venv-1/
+.venv*/
+
+# Source data and generated datasets
+/data/
+/notebooks/data/processed/
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
